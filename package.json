@@ -1,0 +1,11 @@
+{
+  "name": "mindmate-full",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm start --prefix server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
